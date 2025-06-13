@@ -113,6 +113,7 @@ print(sentence)
 # Declare a function called categorize_countries that returns a list of countries with some common pattern (you can find the countries list in this repository as countries.js(eg 'land', 'ia', 'island', 'stan')).
 from countries_list import countries
 patterns = ['land', 'ia', 'stan', 'new']
+
 def categorize():
     categories = {}
     for pattern in patterns :
@@ -135,4 +136,3 @@ result = categorize()
 for pattern, countires in result.items():
     print(f"{pattern} : {countires}\n")
 
-    
